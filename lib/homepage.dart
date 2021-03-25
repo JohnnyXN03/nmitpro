@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nmitpro/admin.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -98,7 +99,12 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: EdgeInsets.all(5),
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (BuildContext context) => AdminFlow()));
+                  },
                   style: ElevatedButton.styleFrom(
                       elevation: 3, primary: Colors.blueAccent),
                   child: Text(
