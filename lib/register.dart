@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:nmitpro/register.dart';
 
-class LoginPage extends StatefulWidget {
+class RegisterPage extends StatefulWidget {
   @override
-  _LoginPageState createState() => _LoginPageState();
+  _RegisterPageState createState() => _RegisterPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _RegisterPageState extends State<RegisterPage> {
   String _email;
   String _password;
   TextEditingController _foremail = TextEditingController();
@@ -33,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
               Container(
                 margin: EdgeInsets.only(left: 20),
                 alignment: Alignment.topLeft,
-                child: Text("Login",
+                child: Text("Register",
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 25,
@@ -111,19 +110,9 @@ class _LoginPageState extends State<LoginPage> {
                   style: ElevatedButton.styleFrom(
                       elevation: 3, primary: Colors.blueAccent),
                   child: Text(
-                    'Login',
+                    'Register',
                     style: TextStyle(color: Colors.white, fontSize: 15),
                   ),
-                ),
-              ),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => RegisterPage()));
-                },
-                child: Text(
-                  'Register',
-                  style: TextStyle(color: Colors.white, fontSize: 15),
                 ),
               ),
             ],

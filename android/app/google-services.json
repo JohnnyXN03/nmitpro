@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26281950351",
+    "project_id": "nmitid",
+    "storage_bucket": "nmitid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26281950351:android:9d7e4da1354de5c8be84fa",
+        "android_client_info": {
+          "package_name": "com.example.nmitpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26281950351-g09ai5ra31ijecmsinvdo4avrivtjplu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQYL4CiRRJTg4l0G7YSsJ5RePxzGwOOTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26281950351-g09ai5ra31ijecmsinvdo4avrivtjplu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
